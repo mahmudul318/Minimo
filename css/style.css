@@ -1,0 +1,276 @@
+/*fonts*/
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+	font-family: PlayfairDisplay-Black;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+	font-family: PlayfairDisplay-Italic;
+}
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	src:url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+	font-family: Ubuntu-Light;
+}
+/*fonts*/
+
+/*common start*/
+body{
+	margin:0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+a{
+	text-decoration: none;
+}
+/*common end*/
+
+
+/*header start*/
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	margin: 27px 0;
+	width: 10%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+
+.menu{
+	padding: 10px 0;
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	padding: 0;
+	overflow: hidden;
+}
+.menu ul li{
+	
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin-right: 120px;
+	color: #626262;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 3px 3px;
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid transparent;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+	border-top: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banar start*/
+.banar{}
+.container{}
+.banar img{
+	width: 100%;
+}
+/*banar end*/
+/*uper section start*/
+
+.container2{
+	margin:0 auto;
+	width: 75%;
+	overflow: hidden;
+}
+.blog{
+	margin:36px 0;
+
+}
+.blog h3{
+	margin: 15px 0px;
+	font-family: Ubuntu-Light;
+	font-size: 16px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.blog h4{
+	margin: 50px 0px;
+	font-family: Ubuntu-Light;
+	font-size: 16px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.blog h2{
+	margin: 20px 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+}
+.blog p{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	line-height: 28px;
+}
+.content_area{
+	margin: 40px 0;
+	overflow: hidden;
+}
+.content_area .left{
+	margin-right: 60px; 
+	padding:40px 0;
+	width: 47%;
+	float: left;
+}
+.content_area .right{
+	padding:40px 0;
+	width: 47%;
+	float: left;
+}
+.content_area img{
+	width: 100%;
+	padding: 15px 0px;
+}
+.content_area .right img{}
+/* uper section end*/
+
+/*form start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.signup h2{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.s_form input{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	width: 350px;
+	height: 45px;
+	background:transparent;
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: none;
+}
+.s_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+.s_form button img{}
+/*form end*/
+/*lower section start*/
+/*all design are as same as uper section*/
+/*lower section end*/
+/*button area start*/
+.button_area{}
+.button_area button{
+	margin: 0 auto;
+	margin-bottom: 190px;
+	margin-top: 120px;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 20px;
+	color: #626262;
+	display: block;
+	padding: 10px 20px;
+	background-color: transparent;
+	border-top:1px solid #333333;
+	border-left:1px solid #333333;
+	border-right:2px solid #dddcd7;
+	border-bottom:2px solid #dddcd7;
+	transition: all 1s ease;
+}
+.button_area button:hover{
+	color: #000;
+	background-color: #dddcd7;
+	border-top:1px solid #dddcd7;
+	border-left:1px solid #dddcd7;
+	border-right:2px solid #333333;
+	border-bottom:2px solid #333333;
+	transition: all 1s ease;
+}
+/*button area end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+	overflow: hidden;
+}
+.container2{
+	overflow: hidden;
+}
+.left_area{
+	float: left;
+	overflow: hidden;
+}
+.left_area ul{
+	margin: 0;
+	padding: 0;
+}
+.left_area ul li{
+	list-style: none;
+	float:left;
+}
+.left_area ul li a{
+	color: #000000;
+	margin-right: 15px;
+}
+.right_area{
+	float: right;
+	overflow: hidden;
+}
+.right_area ul{
+	float:left;
+	margin: 0;
+	padding: 0;
+}
+.right_area ul li{
+	list-style: none;
+	float:left;
+}
+.right_area ul li a{
+	color: #000000;
+	margin-right: 20px;
+}
+.right_area ul li:last-child a{
+	margin-right: 0;
+}
+.right_area ul li a i{
+	color: #626262;
+}
+/*footer end*/
